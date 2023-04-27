@@ -35,7 +35,7 @@ class Chronometer {
   }
 
   reset() {
-    // ... your code goes here
+    return this.currentTime = 0;
   }
 
   split() {
